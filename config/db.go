@@ -3,8 +3,8 @@ package config
 import (
 	"os"
 
+	"github.com/conku/admin"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
 )
 
 // DB gorm DB instance
