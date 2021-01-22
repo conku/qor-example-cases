@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/conku/gorm"
+	_ "github.com/conku/gorm/dialects/mysql"
+	_ "github.com/conku/gorm/dialects/postgres"
 	"github.com/fatih/color"
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/mysql"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
 	_ "github.com/mattn/go-sqlite3"
 
 	"github.com/conku/admin"

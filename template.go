@@ -3,10 +3,10 @@ package main
 import (
 	"net/http"
 
+	"github.com/conku/gorm"
+	_ "github.com/conku/gorm/dialects/postgres"
 	"github.com/conku/qor-example-cases/config"
 	"github.com/fatih/color"
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
 	appkitlog "github.com/theplant/appkit/log"
 	"github.com/theplant/appkit/server"
 )
