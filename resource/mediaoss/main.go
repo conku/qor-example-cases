@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 
+	"github.com/conku/configor"
 	"github.com/conku/gorm"
 	_ "github.com/conku/gorm/dialects/postgres"
 	"github.com/conku/media"
@@ -10,7 +11,6 @@ import (
 	"github.com/conku/oss/s3"
 	"github.com/conku/qor-example-cases/config"
 	"github.com/fatih/color"
-	"github.com/jinzhu/configor"
 	appkitlog "github.com/theplant/appkit/log"
 	"github.com/theplant/appkit/server"
 )
